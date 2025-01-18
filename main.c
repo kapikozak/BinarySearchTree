@@ -16,7 +16,7 @@ void InitBST() {
 pvertex BSTNewLeaf(int klucz, int dana) {
     pvertex p = malloc(sizeof(struct vertex));
     if (!p) {
-        perror("Nie udało się przydzielić pamięci");
+        perror("Nie udalo sie przydzielic pamieci");
         exit(EXIT_FAILURE);
     }
     p->klucz = klucz;
