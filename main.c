@@ -43,7 +43,7 @@ char BSTFind(int klucz, int* dana) {
     while (p) {
         if (p->klucz == klucz) {
             *dana = p->dana;
-            return 1; // Znaleziono
+            return 1;
         } else if (p->klucz > klucz) {
             p = p->left;
         } else {
